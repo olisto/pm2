@@ -107,6 +107,12 @@
     ],
     "docDescription": "Specify environment variables to be injected when using --env <env_name>"
   },
+  "env_inherit": {
+    "type": [
+      "array"
+    ],
+    "docDescription": "Specify environment variables that will be passed from the pm2 daemon to the app"
+  },
   "max_memory_restart": {
     "type": [
       "string",
