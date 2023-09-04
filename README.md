@@ -63,7 +63,7 @@ Works on Linux (stable) & macOS (stable) & Windows (stable). All Node.js version
 With NPM:
 
 ```bash
-$ npm install pm2 -g
+$ npm install @triggi/pm2 -g
 ```
 
 You can install Node.js easily with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating) or [FNM](https://github.com/Schniz/fnm).
@@ -142,7 +142,7 @@ With the drop-in replacement command for `node`, called `pm2-runtime`, run your 
 Using it is seamless:
 
 ```
-RUN npm install pm2 -g
+RUN npm install @triggi/pm2 -g
 CMD [ "pm2-runtime", "npm", "--", "start" ]
 ```
 
@@ -223,7 +223,7 @@ $ pm2 unstartup
 
 ```bash
 # Install latest PM2 version
-$ npm install pm2@latest -g
+$ npm install @triggi/pm2@latest -g
 # Save process list, exit old PM2 & restore all processes
 $ pm2 update
 ```
