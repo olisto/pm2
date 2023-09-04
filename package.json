@@ -1,7 +1,7 @@
 {
-  "name": "pm2",
+  "name": "@triggi/pm2",
   "preferGlobal": true,
-  "version": "5.3.1",
+  "version": "5.3.1-olisto3",
   "engines": {
     "node": ">=10.0.0"
   },
