@@ -15,7 +15,7 @@ $ # put .bash_profile content to .bashrc
 $ source .bashrc
 $ nvm install v0.11.10
 $ nvm alias default 0.11.10
-$ npm install pm2 -g
+$ npm install @triggi/pm2 -g
 $ # OR
 $ npm install git://github.com/Unitech/pm2.git#development -g
 ```

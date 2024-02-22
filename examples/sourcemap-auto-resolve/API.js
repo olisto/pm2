@@ -364,7 +364,7 @@ API.prototype.reset = function(process_name, cb) {
 API.prototype.update = function(cb) {
   var that = this;
 
-  Common.printOut('Be sure to have the latest version by doing `npm install pm2@latest -g` before doing this procedure.');
+  Common.printOut('Be sure to have the latest version by doing `npm install @triggi/pm2@latest -g` before doing this procedure.');
 
   // Dump PM2 processes
   that.Client.executeRemote('notifyKillPM2', {}, function() {});

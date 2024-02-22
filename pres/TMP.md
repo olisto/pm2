@@ -5,7 +5,7 @@
 
 ```bash
 # General
-$ npm install pm2 -g            # Install PM2
+$ npm install @triggi/pm2 -g    # Install PM2
 $ pm2 start app.js              # Start, Daemonize and auto-restart application (Node)
 $ pm2 start app.py              # Start, Daemonize and auto-restart application (Python)
 $ pm2 start npm -- start        # Start, Daemonize and auto-restart Node application
