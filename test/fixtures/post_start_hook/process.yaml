@@ -1,0 +1,5 @@
+- name: with-secret
+  script: echo.js
+  post_start_hook: post_start_hook_with-secret.js
+  merge_logs: true
+  out_file: with-secret.log

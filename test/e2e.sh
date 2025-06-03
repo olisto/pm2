@@ -28,6 +28,7 @@ runTest ./test/e2e/cli/smart-start.sh
 runTest ./test/e2e/cli/args.sh
 runTest ./test/e2e/cli/attach.sh
 runTest ./test/e2e/cli/serve.sh
+runTest ./test/e2e/cli/with-secret.sh
 
 SUPV6=`node -e "require('semver').lt(process.versions.node, '6.0.0') ? console.log('<6') : console.log('>6')"`
 
